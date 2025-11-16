@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     "drf_yasg",
 
     # local
-    "alx_travel_app.alx_travel_app.listings"
+    "alx_travel_app.listings"
 ]
 
 MIDDLEWARE = [
@@ -73,9 +73,9 @@ TEMPLATES = [
 
 # WSGI_APPLICATION = "alx_travel_app.wsgi.application"
 
-ROOT_URLCONF = "alx_travel_app.alx_travel_app.urls"
-WSGI_APPLICATION = "alx_travel_app.alx_travel_app.wsgi.application"
-ASGI_APPLICATION = "alx_travel_app.alx_travel_app.asgi.application"
+ROOT_URLCONF = "alx_travel_app.urls"
+WSGI_APPLICATION = "alx_travel_app.wsgi.application"
+ASGI_APPLICATION = "alx_travel_app.asgi.application"
 
 # Database (MySQL via env)
 # DATABASES = {
