@@ -45,8 +45,6 @@ alx_travel_app_0x00/
 ├── requirements.txt
 │
 ├── alx_travel_app/
-│   ├── manage.py  ← ✔ use THIS manage.py
-│   └── alx_travel_app/
 │       ├── settings.py
 │       ├── urls.py
 │       ├── wsgi.py
